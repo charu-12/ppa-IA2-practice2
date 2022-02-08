@@ -16,7 +16,7 @@ int check_scalene(int a,int b,int c)
 void output(int a,int b,int c,int scalene)
 {
   if(scalene==0)
-  printf("SCALENE");
+  printf("scalene");
 }
 int main()
 {
