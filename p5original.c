@@ -2,23 +2,23 @@
 int input()
 {
   int a;
-  printf("enter the number:\n");
+  printf("enter the two number (a space b)=\n");
   scanf("%d",&a);
   return a;
 }
 int gcd(int a,int b)
 {
-  int r;
-  for(int i=1;i<=a&&i<=b;i++)
+  int i,r;
+  for(i=1;i<=a && i<=b;i++)
     {
-      if(a%i==0&&b%i==0)
-      r=i;
+      if(a%i==0 && b%i==0)
+        r=i;
     }
   return r;
 }
-void output(int a,int b,int gcd)
+void output(int a,int b,int hcf)
 {
-  printf("the hcf(gcd)of %d & %d is %d"a,b,hcf);
+  printf("gcd of two numbers %d and %d is %d",a,b,hcf);
 }
 int main()
 {
